@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		5F1673AE24744AD00053BB1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673AD24744AD00053BB1F /* AppDelegate.swift */; };
 		5F1673B024744AD00053BB1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673AF24744AD00053BB1F /* SceneDelegate.swift */; };
-		5F1673B224744AD00053BB1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673B124744AD00053BB1F /* ViewController.swift */; };
-		5F1673B524744AD00053BB1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1673B324744AD00053BB1F /* Main.storyboard */; };
 		5F1673B724744ADF0053BB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1673B624744ADF0053BB1F /* Assets.xcassets */; };
 		5F1673BA24744ADF0053BB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1673B824744ADF0053BB1F /* LaunchScreen.storyboard */; };
+		5F1673C224744C740053BB1F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673C124744C740053BB1F /* TabBarController.swift */; };
+		5F1673C4247450540053BB1F /* CoordinatorForTabA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673C3247450540053BB1F /* CoordinatorForTabA.swift */; };
+		5F1673C6247450A20053BB1F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673C5247450A20053BB1F /* Coordinator.swift */; };
+		5F1673C8247450C90053BB1F /* InitialViewControllerForTabA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673C7247450C90053BB1F /* InitialViewControllerForTabA.swift */; };
+		5F1673CA247450D30053BB1F /* InitialViewControllerForTabB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673C9247450D30053BB1F /* InitialViewControllerForTabB.swift */; };
+		5F1673CC2474526B0053BB1F /* ViewCodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673CB2474526B0053BB1F /* ViewCodeProtocol.swift */; };
+		5F1673CE2474560F0053BB1F /* SecondViewControllerForTabA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673CD2474560F0053BB1F /* SecondViewControllerForTabA.swift */; };
+		5F1673D02474577E0053BB1F /* ThirdViewControllerForTabA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673CF2474577E0053BB1F /* ThirdViewControllerForTabA.swift */; };
+		5F1673D224745DD90053BB1F /* CoordinatorForTabB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673D124745DD90053BB1F /* CoordinatorForTabB.swift */; };
+		5F1673DB247460F50053BB1F /* SecondViewControllerForTabB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673DA247460F50053BB1F /* SecondViewControllerForTabB.swift */; };
+		5F1673DD247461060053BB1F /* ThirdViewControllerForTabB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1673DC247461060053BB1F /* ThirdViewControllerForTabB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F1673AA24744ACF0053BB1F /* CoordinatorMinimumExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorMinimumExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1673AD24744AD00053BB1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F1673AF24744AD00053BB1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F1673B124744AD00053BB1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F1673B424744AD00053BB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F1673B624744ADF0053BB1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F1673B924744ADF0053BB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F1673BB24744AE00053BB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1673C124744C740053BB1F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		5F1673C3247450540053BB1F /* CoordinatorForTabA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorForTabA.swift; sourceTree = "<group>"; };
+		5F1673C5247450A20053BB1F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5F1673C7247450C90053BB1F /* InitialViewControllerForTabA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewControllerForTabA.swift; sourceTree = "<group>"; };
+		5F1673C9247450D30053BB1F /* InitialViewControllerForTabB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewControllerForTabB.swift; sourceTree = "<group>"; };
+		5F1673CB2474526B0053BB1F /* ViewCodeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeProtocol.swift; sourceTree = "<group>"; };
+		5F1673CD2474560F0053BB1F /* SecondViewControllerForTabA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerForTabA.swift; sourceTree = "<group>"; };
+		5F1673CF2474577E0053BB1F /* ThirdViewControllerForTabA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewControllerForTabA.swift; sourceTree = "<group>"; };
+		5F1673D124745DD90053BB1F /* CoordinatorForTabB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorForTabB.swift; sourceTree = "<group>"; };
+		5F1673DA247460F50053BB1F /* SecondViewControllerForTabB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerForTabB.swift; sourceTree = "<group>"; };
+		5F1673DC247461060053BB1F /* ThirdViewControllerForTabB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewControllerForTabB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,64 @@
 		5F1673AC24744AD00053BB1F /* CoordinatorMinimumExample */ = {
 			isa = PBXGroup;
 			children = (
+				5F1673D524745E060053BB1F /* App Delegate e TabBar */,
+				5F1673D624745E160053BB1F /* Coordinators */,
+				5F1673D324745DE40053BB1F /* Tab A */,
+				5F1673D424745DF10053BB1F /* Tab B */,
+				5F1673D724745E500053BB1F /* Supporting files */,
+			);
+			path = CoordinatorMinimumExample;
+			sourceTree = "<group>";
+		};
+		5F1673D324745DE40053BB1F /* Tab A */ = {
+			isa = PBXGroup;
+			children = (
+				5F1673C7247450C90053BB1F /* InitialViewControllerForTabA.swift */,
+				5F1673CD2474560F0053BB1F /* SecondViewControllerForTabA.swift */,
+				5F1673CF2474577E0053BB1F /* ThirdViewControllerForTabA.swift */,
+			);
+			path = "Tab A";
+			sourceTree = "<group>";
+		};
+		5F1673D424745DF10053BB1F /* Tab B */ = {
+			isa = PBXGroup;
+			children = (
+				5F1673C9247450D30053BB1F /* InitialViewControllerForTabB.swift */,
+				5F1673DA247460F50053BB1F /* SecondViewControllerForTabB.swift */,
+				5F1673DC247461060053BB1F /* ThirdViewControllerForTabB.swift */,
+			);
+			path = "Tab B";
+			sourceTree = "<group>";
+		};
+		5F1673D524745E060053BB1F /* App Delegate e TabBar */ = {
+			isa = PBXGroup;
+			children = (
 				5F1673AD24744AD00053BB1F /* AppDelegate.swift */,
 				5F1673AF24744AD00053BB1F /* SceneDelegate.swift */,
-				5F1673B124744AD00053BB1F /* ViewController.swift */,
-				5F1673B324744AD00053BB1F /* Main.storyboard */,
+				5F1673C124744C740053BB1F /* TabBarController.swift */,
+			);
+			path = "App Delegate e TabBar";
+			sourceTree = "<group>";
+		};
+		5F1673D624745E160053BB1F /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				5F1673C5247450A20053BB1F /* Coordinator.swift */,
+				5F1673C3247450540053BB1F /* CoordinatorForTabA.swift */,
+				5F1673D124745DD90053BB1F /* CoordinatorForTabB.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		5F1673D724745E500053BB1F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
 				5F1673B624744ADF0053BB1F /* Assets.xcassets */,
+				5F1673CB2474526B0053BB1F /* ViewCodeProtocol.swift */,
 				5F1673B824744ADF0053BB1F /* LaunchScreen.storyboard */,
 				5F1673BB24744AE00053BB1F /* Info.plist */,
 			);
-			path = CoordinatorMinimumExample;
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +194,6 @@
 			files = (
 				5F1673BA24744ADF0053BB1F /* LaunchScreen.storyboard in Resources */,
 				5F1673B724744ADF0053BB1F /* Assets.xcassets in Resources */,
-				5F1673B524744AD00053BB1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +204,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1673B224744AD00053BB1F /* ViewController.swift in Sources */,
+				5F1673C224744C740053BB1F /* TabBarController.swift in Sources */,
+				5F1673CC2474526B0053BB1F /* ViewCodeProtocol.swift in Sources */,
+				5F1673DD247461060053BB1F /* ThirdViewControllerForTabB.swift in Sources */,
 				5F1673AE24744AD00053BB1F /* AppDelegate.swift in Sources */,
+				5F1673CA247450D30053BB1F /* InitialViewControllerForTabB.swift in Sources */,
+				5F1673D02474577E0053BB1F /* ThirdViewControllerForTabA.swift in Sources */,
+				5F1673C6247450A20053BB1F /* Coordinator.swift in Sources */,
+				5F1673C4247450540053BB1F /* CoordinatorForTabA.swift in Sources */,
+				5F1673CE2474560F0053BB1F /* SecondViewControllerForTabA.swift in Sources */,
+				5F1673D224745DD90053BB1F /* CoordinatorForTabB.swift in Sources */,
+				5F1673DB247460F50053BB1F /* SecondViewControllerForTabB.swift in Sources */,
 				5F1673B024744AD00053BB1F /* SceneDelegate.swift in Sources */,
+				5F1673C8247450C90053BB1F /* InitialViewControllerForTabA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5F1673B324744AD00053BB1F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F1673B424744AD00053BB1F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5F1673B824744ADF0053BB1F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9BJ5RNAMJ;
-				INFOPLIST_FILE = CoordinatorMinimumExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoordinatorMinimumExample/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9BJ5RNAMJ;
-				INFOPLIST_FILE = CoordinatorMinimumExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoordinatorMinimumExample/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
